@@ -6,7 +6,7 @@ A classic two-player Tic Tac Toe game built with vanilla HTML, CSS, and JavaScri
 
 > Open `index.html` in any browser to play.
 
-> ![Play Directly here.](https://ashutosht0210.github.io/Tic-Tac-Toe/)
+> [Play Directly here.](https://ashutosht0210.github.io/Tic-Tac-Toe/)
 ## Features
 
 - Two-player gameplay (X and O)
