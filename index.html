@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    
+    <!-- Scoreboard -->
+    <div id="scoreboard">
+        <div class="score-card">
+            <span class="score-label" style="color:#e63946;">X</span>
+            <span class="score-val" id="score-x">0</span>
+        </div>
+        <div class="score-card">
+            <span class="score-label">Draws</span>
+            <span class="score-val" id="score-d">0</span>
+        </div>
+        <div class="score-card">
+            <span class="score-label" style="color:#4db8ff;">O</span>
+            <span class="score-val" id="score-o">0</span>
+        </div>
+    </div>
+
+    <!-- Game grid area -->
+    <div class="gameSection">
+        <p id="turn-indicator">Player X's Turn</p>
+        <div class="gameBoard">
+            <div class="win-line"></div>
+
+            <div class="row">
+                <button class="box" id="box1"></button>
+                <button class="box" id="box2"></button>
+                <button class="box" id="box3"></button>
+            </div>
+            <div class="row">
+                <button class="box" id="box4"></button>
+                <button class="box" id="box5"></button>
+                <button class="box" id="box6"></button>
+
+            </div>
+            <div class="row">
+                <button class="box" id="box7"></button>
+                <button class="box" id="box8"></button>
+                <button class="box" id="box9"></button>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- Restart button -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button id="replay">Restart</button>
+    </div>
+
+    <!-- Status message -->
+    <p id="status-msg"></p>
+    
+    <!-- Rules Section -->
+    <div class="rules">
+        <h2>How to Play</h2>
+
+        <div class="rule-card">
+            <h3>Players</h3>
+            <p>Two players — X and O. X always goes first.</p>
+        </div>
+
+        <div class="rule-card">
+            <h3>Core Rules</h3>
+            <ol>
+            <li>Played on a 3×3 grid.</li>
+            <li>Take turns clicking an empty cell.</li>
+            <li>You can't overwrite a taken cell.</li>
+            <li>Game ends on a win or full board.</li>
+            </ol>
+        </div>
+
+        <div class="rule-card">
+            <h3>How to Win</h3>
+            <p>Get 3 marks in a row — horizontally, vertically, or diagonally.</p>
+        </div>
+
+        <div class="rule-card">
+            <h3>Draw</h3>
+            <p>All 9 cells filled with no winner? It's a draw.</p>
+        </div>
+
+        <div class="rule-card">
+            <h3>Restart</h3>
+            <p>Hit Restart to reset the board and play again.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-title">Tic Tac Toe</p>
+        <p class="footer-sub">A classic game. Two players. One winner.</p>
+        <p class="footer-copy">© 2026 Made with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
