@@ -37,9 +37,9 @@ tic-tac-toe/
 ├── index.html             # Game layout and structure
 ├── style.css              # Styling and theme
 ├── script.js              # Game logic
-├── LICENSE                # The MIT license agreement
-└── image                  # Screenshot Folder
-    ├── screenshot.png     # Screenshot image
+├── LICENSE                # MIT license agreement
+└── image                  
+    ├── screenshot.png     
 ```
 
 ## Tech Stack
