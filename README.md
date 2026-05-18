@@ -33,9 +33,13 @@ A classic two-player Tic Tac Toe game built with vanilla HTML, CSS, and JavaScri
 
 ```
 tic-tac-toe/
-├── index.html       # Game layout and structure
-├── style.css        # Styling and theme
-└── script.js        # Game logic
+├── README.md              # Readme file
+├── index.html             # Game layout and structure
+├── style.css              # Styling and theme
+├── script.js              # Game logic
+├── LICENSE                # The MIT license agreement
+└── image                  # Screenshot Folder
+    ├── screenshot.png     # Screenshot image
 ```
 
 ## Tech Stack
